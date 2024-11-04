@@ -1,6 +1,6 @@
 import React from 'react';
 import ErrorImg from '@/assets/images/errorimg.svg'; // Update with the correct path
-import ClickButton from '@/components/buttons/ClickButton';
+import ClickButton from '../components/buttons/ClickButton';
 
 const NotFoundPage: React.FC = () => {
   const handleRoutes = () => {
