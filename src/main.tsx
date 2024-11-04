@@ -1,12 +1,12 @@
 import { Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
+import App from './App'
 import { BrowserRouter } from 'react-router-dom'
-import { AuthContextProvider } from './context/authContext.tsx'
-import ReactQueryProvider from './providers/ReactQeuryProvider.tsx'
-import { CartProvider } from './context/CartContext.tsx'
+import { AuthContextProvider } from './context/authContext'
+import ReactQueryProvider from './providers/ReactQeuryProvider'
+import { CartProvider } from './context/CartContext'
 import { Toaster } from 'sonner'
-import Spinner from './components/spinner/Spinner.tsx'
+import Spinner from './components/spinner/Spinner'
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter basename='/'>
